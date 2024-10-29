@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.packages {
+  padding: 20px;
+}
+
+.card {
+  margin: 10px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

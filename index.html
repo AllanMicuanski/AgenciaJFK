@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JFK - home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">JFK Viagens</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#packages">Pacotes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="imagens/ankorWat.png"
+            class="d-block w-100"
+            alt="Ankor Wat"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagens/eiffel.png"
+            class="d-block w-100"
+            alt="Torre Eiffel"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="imagens/machupichu.png"
+            class="d-block w-100"
+            alt="Machu Picchu"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-target="#carouselExample"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-target="#carouselExample"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </button>
+    </div>
+
+    <section id="packages" class="packages">
+      <h2>Pacotes Disponíveis</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="imagens/muralha.png"
+                class="card-img-top"
+                alt="Muralha"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pacote China</h5>
+                <p class="card-text">
+                  Acesse para mais informações sobre o Pacote.
+                </p>
+                <a href="detalhes-china.html" class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="imagens/eiffel.png" class="card-img-top" alt="Petra" />
+              <div class="card-body">
+                <h5 class="card-title">Pacote Paris</h5>
+                <p class="card-text">Acesse para mais informações do Pacote.</p>
+                <a href="detalhes-paris.html" class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="imagens/tajMahal.png"
+                class="card-img-top"
+                alt="Taj Mahal"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Pacote India</h5>
+                <p class="card-text">Acesse para mais informações do Pacote.</p>
+                <a href="detalhes-india.html" class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center">
+      <p>&copy; 2024 JFK Viagens. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

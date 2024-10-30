@@ -1,0 +1,12 @@
+.carousel-control-prev,
+.carousel-control-next {
+  height: 30px;
+  width: 5% !important;
+  display: flex;
+  align-self: center;
+  opacity: 1 !important;
+  color: #000 !important;
+  background: #000;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}

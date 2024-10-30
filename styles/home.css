@@ -4,7 +4,6 @@
   height: 40px;
   display: flex;
   align-items: center;
-  align-self: center;
   justify-content: center;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
@@ -13,6 +12,7 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
   cursor: pointer;
   margin: 0 10px !important;
+  align-self: center;
 }
 
 .carousel-control-prev:hover,
@@ -25,4 +25,30 @@
 .carousel-control-next::before {
   font-size: 18px;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 12vw;
+    height: 35px;
+  }
+
+  .carousel-control-prev::before,
+  .carousel-control-next::before {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 15vw !important;
+    height: 30px;
+  }
+
+  .carousel-control-prev::before,
+  .carousel-control-next::before {
+    font-size: 14px;
+  }
 }

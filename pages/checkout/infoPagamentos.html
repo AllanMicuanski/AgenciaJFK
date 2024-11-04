@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Informações de Pagamento</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">JFK Viagens</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#packages">Pacotes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <h2>Informações de Pagamento</h2>
+      <form>
+        <div class="form-group">
+          <label for="cardName">Nome no Cartão</label>
+          <input type="text" class="form-control" id="cardName" required />
+        </div>
+        <div class="form-group">
+          <label for="cardNumber">Número do Cartão</label>
+          <input type="text" class="form-control" id="cardNumber" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="expiryDate">Data de Expiração</label>
+            <input type="month" class="form-control" id="expiryDate" required />
+          </div>
+          <div class="form-group col-md-6">
+            <label for="cvv">CVV</label>
+            <input type="text" class="form-control" id="cvv" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="installments">Parcelas</label>
+          <select class="form-control" id="installments" required>
+            <option value="1">1x sem juros</option>
+            <option value="2">2x sem juros</option>
+            <option value="3">3x sem juros</option>
+            <option value="4">4x sem juros</option>
+          </select>
+        </div>
+        <a type="submit" class="btn btn-primary" href="./compraFinalizada.html"
+          >Finalizar Compra</a
+        >
+      </form>
+    </div>
+
+    <footer class="text-center">
+      <p>&copy; 2024 JFK Viagens. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
